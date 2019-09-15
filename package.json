@@ -1,26 +1,24 @@
 {
-    "name": "portofolio-website",
-    "version": "0.0.1",
-    "description": "A simple Node.js Website",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "engines": {
-      "node": "6.10.0"
-    },
-    "dependencies": {
-      "express": "^4.15.2"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hikarimuchtar/Portofolio-Website"
-    },
-    "keywords": [
-      "node",
-      "heroku",
-      "express"
-    ],
-    "license": "MIT"
-  }
-  
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "A simple node.js website",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.4.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikarimuchtar/Portofolio-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hikarimuchtar/Portofolio-Website/issues"
+  },
+  "homepage": "https://github.com/hikarimuchtar/Portofolio-Website#readme"
+}
