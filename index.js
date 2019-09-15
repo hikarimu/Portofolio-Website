@@ -5,7 +5,7 @@ app.get('/', function(req,res){
     res.send("This is working, cap!")
 })
 
-app.listen(3000, function(){
+app.listen(80, function(){
     console.log('Listening on port 3000!')
 })
 
